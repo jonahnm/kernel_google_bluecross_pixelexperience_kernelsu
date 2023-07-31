@@ -25,7 +25,7 @@ jobs:
         NAME: PixelExperience-KernelSU
       with:
         arch: arm64
-        compiler: clang/12
+        compiler: clang/11/binutils
         defconfig: b1c1_defconfig
         image: Image.gz-dtb
 
